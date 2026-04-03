@@ -155,6 +155,33 @@ print("Sources:", result["sources"])
 
 ---
 
+## Streamlit UI
+
+`LeadershipInsightAgent` now accepts optional **`llm_provider`** and per-provider keys (`anthropic_api_key`, `openai_api_key`, `groq_api_key`, `groq_base_url`, `ollama_base_url`, `ollama_api_key`).  
+If **`llm_provider` is `None`**, behavior matches before (env + auto-priority).  
+If **`llm_provider` is set** (e.g. from the UI), the right key is required; whitespace is trimmed.
+
+### **`streamlit_app.py`** (new)
+
+- **Wide layout**, dark gradient background, **Plus Jakarta Sans** + **Fraunces** for the title  
+- **Sidebar:** provider (Groq, Ollama, Anthropic, OpenAI), **password API key**, **model** dropdown + **“Custom model…”**, **top‑k** slider  
+- **Documents:** bundled examples, **project folder**, or **multi-file upload** (PDF/DOCX/TXT)  
+- **Advanced:** index path, **rebuild index**, optional Groq base URL  
+- **Apply & load documents** builds the agent, runs ingestion, then enables chat  
+- **Chat UI** with `st.chat_input`, source expanders, errors surfaced without crashing the app  
+- **`st.secrets`** support for default keys (`anthropic_api_key`, `openai_api_key`, `groq_api_key`) on Streamlit Cloud  
+
+### **`requirements.txt`**
+
+- Added `streamlit>=1.40.0`
+
+### Run
+
+```powershell
+cd C:\Users\Manikanta\Downloads\leadership_agent
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
 ## Task 2 Extension Points
 
 To evolve this into an **autonomous decision-making agent** (Task 2):
