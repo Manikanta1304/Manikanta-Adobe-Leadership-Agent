@@ -161,7 +161,7 @@ print("Sources:", result["sources"])
 If **`llm_provider` is `None`**, behavior matches before (env + auto-priority).  
 If **`llm_provider` is set** (e.g. from the UI), the right key is required; whitespace is trimmed.
 
-### **`streamlit_app.py`** (new)
+### **`streamlit_app.py`** 
 
 - **Wide layout**, dark gradient background, **Plus Jakarta Sans** + **Fraunces** for the title  
 - **Sidebar:** provider (Groq, Ollama, Anthropic, OpenAI), **password API key**, **model** dropdown + **“Custom model…”**, **top‑k** slider  
@@ -171,15 +171,11 @@ If **`llm_provider` is set** (e.g. from the UI), the right key is required; whit
 - **Chat UI** with `st.chat_input`, source expanders, errors surfaced without crashing the app  
 - **`st.secrets`** support for default keys (`anthropic_api_key`, `openai_api_key`, `groq_api_key`) on Streamlit Cloud  
 
-### **`requirements.txt`**
-
-- Added `streamlit>=1.40.0`
 
 ### Run
 
-```powershell
+```cmd
 cd C:\Users\Manikanta\Downloads\leadership_agent
-pip install -r requirements.txt
 streamlit run streamlit_app.py
 
 ## Task 2 Extension Points
