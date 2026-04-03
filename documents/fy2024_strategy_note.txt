@@ -1,0 +1,62 @@
+ACME CORPORATION — FY2024 STRATEGIC PRIORITIES
+===============================================
+Prepared by: Office of the CEO
+Date: January 2024
+
+VISION
+------
+Become the #1 mid-market cloud infrastructure provider in North America by 2027,
+with $1B in ARR and operations across 12 countries.
+
+STRATEGIC PILLARS FOR 2024
+---------------------------
+
+1. PRODUCT LEADERSHIP
+   Priority: Ship CloudEdge v3.0 by Q3 2024 (now delayed to Q4 — see Q3 report).
+   Investment: $22M R&D budget, 40% increase over FY2023.
+   Target: Achieve feature parity with NovaTech by H1 2024, surpass by H2 2024.
+
+2. ENTERPRISE EXPANSION
+   Target: Grow Enterprise segment from $165M to $210M ARR (+27%).
+   Strategy: Hire 25 senior AEs focused on Fortune 1000 accounts.
+   Key markets: Financial services, healthcare, public sector.
+
+3. INTERNATIONAL GROWTH
+   EMEA launch: Q2 2024 (completed — underperforming, see Q3 report).
+   APAC launch: Q3 2024 (completed — early stage, below initial targets).
+   Dedicated regional GMs hired for both regions.
+
+4. OPERATIONAL EXCELLENCE
+   Cost reduction target: $12M annualised savings by year-end.
+   Initiatives: Procurement consolidation, cloud spend optimization,
+   real-estate rationalisation (2 offices closing H2 2024).
+
+5. TALENT & CULTURE
+   Goal: Reduce attrition to below 10% by year-end (currently 14.2% — off track).
+   Programs: Updated compensation bands (effective Q4 2024),
+   flexible-work policy revision, employee equity refresh.
+
+REVENUE TARGETS BY SEGMENT (FY2024)
+-------------------------------------
+Cloud Services:      $265M  (FY2023: $228M, +16%)
+Enterprise Sales:    $175M  (FY2023: $170M, +3%)  ← at-risk given Q3 miss
+Consumer Products:   $ 88M  (FY2023: $ 84M, +5%)
+Professional Svcs:   $ 52M  (FY2023: $ 58M, -10%)  ← restructuring planned
+TOTAL:               $580M
+
+M&A PIPELINE
+------------
+The Board approved exploration of two acquisition targets in Q1 2024:
+- DataBridge Inc. (data integration middleware) — LOI signed, due diligence ongoing
+- CloudMonitor GmbH (EU observability tooling) — initial discussions underway
+
+Either acquisition, if completed, would accelerate EU expansion and
+AI Act compliance readiness.
+
+BOARD-LEVEL CONCERNS RAISED IN JANUARY 2024 OFFSITE
+-----------------------------------------------------
+1. Competitive pricing pressure — leadership must decide on a pricing response to
+   NovaTech's aggressive market entry by Q4 2024.
+2. Over-reliance on US market — 83% of revenue is US-sourced; diversification urgent.
+3. AI integration into product — board expects a credible AI roadmap by end of Q3 2024.
+   (Roadmap was presented in September 2024; details in the AI Strategy Note.)
